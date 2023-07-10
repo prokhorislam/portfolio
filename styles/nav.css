@@ -108,3 +108,9 @@ main{
   display: flex;
   justify-content: space-around;
 }
+#whatido-description{
+  padding: 30px 150px;
+}
+.what-i-do{
+  text-align: center;
+}
