@@ -51,6 +51,7 @@ nav a {
   padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .profile-pic{
   width: 520px;
@@ -75,4 +76,26 @@ font-weight: 400;
 line-height: 30px;
 margin-top: 20px;
 margin-bottom: 30px;
+}
+.banner-content{
+  max-width: 500px;
+}
+/* main section styles */
+.about-box{
+  width: 1140px;
+  height: 550px;
+  border-radius: 10px;
+  background: #FFF8F3;
+  margin: 130px 0px;
+}
+.sec-title{
+  color: var(--dark-01, #181818);
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+  color: var(--dark-03, #757575);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
