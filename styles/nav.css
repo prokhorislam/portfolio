@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 /* common shared styles */
 body{ font-family: 'Open Sans', sans-serif;}
 /* nav related styles */
@@ -39,12 +43,36 @@ nav a {
 }
 .header{
   background-color: #FFF8F3;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
 }
 .banner .profile-pic{
-  width: 500px;
+  width: 520px;
+}
+.banner-greeting{
+  color: var(--dark-02, #474747);
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0px;
+}
+.banner-heading{
+  color: var(--dark-01, #181818);
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+.banner-discription{
+  color: var(--dark-03, #757575);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+margin-bottom: 30px;
 }
