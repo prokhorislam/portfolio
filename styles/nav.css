@@ -155,8 +155,38 @@ font-weight: 700;
 
 }
 .resume-item-title{
-
+  color: var(--dark-02, #474747);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 .resume-item-info{
-  
+  color: var(--dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+}
+.resume-container{
+  display: flex;
+  gap: 70px;
+}
+.resume-item-description{
+  color: var(--dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+}
+.resume-container hr{
+  margin: 30px 0px;
+}
+#summery-resume{
+  text-align: center;
+  padding-bottom: 115px;
+}
+.resume-column-item{
+  color: var(--dark-02, #474747);
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 30px;
+}
+.download-cv{
+  text-align: center;
 }
