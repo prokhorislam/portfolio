@@ -87,6 +87,7 @@ margin-bottom: 30px;
   border-radius: 10px;
   background: #FFF8F3;
   margin: 130px 0px;
+  text-align: center;
 }
 .sec-title{
   color: var(--dark-01, #181818);
@@ -98,4 +99,12 @@ font-weight: 700;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+}
+main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
 }
